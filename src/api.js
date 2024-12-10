@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:5000/api"; // Update with your backend URL
+const API_BASE_URL = "https://mytodos-api.onrender.com/api"; // Update with your backend URL
 
 export const getTasks = async () => {
   const response = await axios.get(`${API_BASE_URL}/tasks`);
